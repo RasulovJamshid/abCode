@@ -1,0 +1,17 @@
+.monaco-menu .action-label {
+  color: var(--highlight-color);
+  letter-spacing: 0.02em;
+}
+
+.monaco-aria-container {
+  top: -999em;
+}
+.monaco-editor .editor-widget {
+  display: none !important;
+}
+
+.monaco-menu .monaco-action-bar.vertical .action-item:nth-last-child(n + 5),
+.monaco-menu .monaco-action-bar.vertical .action-item:last-child,
+.monaco-menu .monaco-action-bar.vertical .action-label.separator {
+  display: none !important;
+}

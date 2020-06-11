@@ -1,0 +1,49 @@
+.challenge-instructions blockquote {
+    background-color: #f5f6f7;
+    color: var(--tertiary-color);
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.45rem;
+    font-size: 0.9rem;
+  }
+
+.mark > div{
+    margin:10px;
+}
+.mark>pre{
+  padding:3px;
+  background-color: white !important;
+  margin: 3px;
+}
+.mark > h2{
+    padding: 5px;
+}
+section>code{
+  background-color: rgb(211, 213, 216);
+  border-radius: 2px;
+  padding: 2px;
+  color:rgb(49, 49, 49);
+}
+.mark{
+   background-color: #f5f6f7 !important;
+   font-family: Roboto Mono,monospace,sans-serif;
+   font-size: 1rem;
+   line-height: 2rem;
+   padding: 3px;
+   font-weight: 500 ;
+}
+h2{
+  font-weight: bold;
+  text-align: center;
+
+}
+*{
+  /* scrollbar-width: thin; */
+  scrollbar-color: gray #f5f6f7;
+  scrollbar-shadow-color:#f5f6f7 ;
+  scrollbar-track-color: #f5f6f7;
+}
+div>code , section>code{
+  font-weight: 600;
+}
