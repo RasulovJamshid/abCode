@@ -34,11 +34,13 @@ class ChallengeDescription extends Component {
           markdown: text
         });
         this.props.precode(this.markRef.current.getElementsByTagName("pre")[2].innerText);
+        // this.markRef.current.getElementsByTagName("pre")[2].remove();
       }
       )
   }
 
   render() {
+    window.markR=this.markRef;
     return (
       <div ref={this.markRef} className="challenge-instructions">
            <ReactMarkdown renderers={{ code: CodeBlockSnippets }} className="mark" escapeHtml={false} source={this.state.markdown}/>

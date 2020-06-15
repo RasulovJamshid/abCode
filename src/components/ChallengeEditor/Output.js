@@ -16,9 +16,11 @@ class Output extends Component {
   }
   render() {
 
-    const { output, defaultOutput,precode } = this.props;
-    // const message = sanitizeHtml(output ? output : defaultOutput, );
-    const message=output==="type"?precode:output
+    const { output,precode } = this.props;
+    // const message = sanitizeHtml(output==="type" ? precode:output ,{
+    //   allowedTags: ['b', 'i', 'em', 'strong', 'code', 'wbr','style']
+    // });
+    const message=output==="type" ? precode:output;
     return (
       <div>
       <pre

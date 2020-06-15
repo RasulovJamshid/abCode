@@ -11,10 +11,10 @@
 .mark > div{
     margin:10px;
 }
-.mark>pre{
-  padding:3px;
+pre{
+  padding:6px;
   background-color: white !important;
-  margin: 3px;
+  margin: 6px;
 }
 .mark > h2{
     padding: 5px;

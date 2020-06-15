@@ -1,0 +1,5 @@
+.desktop-layout{
+    height: -o-calc(100vh - 40px); /* opera */
+    height: -webkit-calc(100vh - 40px); /* google, safari */
+    height: -moz-calc(100vh - 40px);
+}

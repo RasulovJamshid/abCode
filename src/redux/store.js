@@ -23,6 +23,15 @@ const precode=(state="type",action)=>{
             return state;
     };
 };
+const headerHeight=(state="40",action)=>{
+    switch(action.type) {
+        case "GETHEIGHT":
+            return action.payload;    
+        default:
+            return state;
+    };
+};
+
 
 
 export const editorValAct=(response)=>(
@@ -36,9 +45,10 @@ const initialStates={
     editorValue:"type",
     colorPalette:0,
     precode:"type",
+    headerHeight:"40",
 
 }
-const reducers= combineReducers({editorValue,colorPalette,precode});
+const reducers= combineReducers({editorValue,colorPalette,precode,headerHeight});
 
 
 export const store=createStore(reducers,initialStates);

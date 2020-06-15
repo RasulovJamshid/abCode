@@ -1,7 +1,7 @@
 
 ## Description
 <section id='description'>
-You can specify the height of an element using the <code>height</code> property in CSS, similar to the <code>width</code> property. Here's an example that changes the height of an image to 20px:
+Siz CSS-da <code>height</code> xususiyatidan foydalanib, elementning balandligini belgilashingiz mumkin, bu <code>kengligi</code> xususiyatiga o'xshash. Rasm balandligini 20px ga o'zgartiradigan misol:
 
 ```css
 img {
