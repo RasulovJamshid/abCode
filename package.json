@@ -24,7 +24,7 @@
     "react-syntax-highlighter": "^12.2.1",
     "redux": "^4.0.5",
     "reselect": "^4.0.0",
-    "sanitize-html": "^1.23.0"
+    "sanitize-html": "^2.3.2"
   },
   "scripts": {
     "start": "react-app-rewired start",
